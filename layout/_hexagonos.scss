@@ -1,4 +1,4 @@
- main.hexagonos{
+  main.hexagonos{
     margin: 0;
     padding: 0;
     display: flex;
@@ -6,7 +6,6 @@
     align-items: center;
     height: 550px;
     background-color: #fc7300;
-    transform: rotate(90deg);
   }
   
   .hex-container {
@@ -15,8 +14,8 @@
   }
   
   .hexagon {
-    width: 200px;
-    height: 150px;
+    width: 32vh;
+    height: 20vh;
     background-color: #1f8a70;
     position: relative;
     margin: 0 10px;
@@ -27,8 +26,8 @@
     content: "";
     position: absolute;
     width: 0;
-    border-left: 100px solid transparent;
-    border-right: 100px solid transparent;
+    border-left: 120px solid transparent;
+    border-right: 120px solid transparent;
   }
   
   .hexagon:before {
