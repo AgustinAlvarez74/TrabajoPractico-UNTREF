@@ -1,5 +1,6 @@
 @import "../base/reset";
-@import "../components/fontstyle.scss";
+@import "../components/fontstyle";
 @import "../layout/background";
 @import "../layout/hexagonos";
-@import "../layout/cards"
+@import "../components/cards";
+@import "../base/media";

@@ -8,10 +8,11 @@
   <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
   <title>UntrefSchool</title>
 </head>
 
-<body class="body_contenedor">
+<body>
   <header class="container_header border border-dark-subtle">
     <nav class="navbar_init navbar navbar-expand-lg bg-primary-subtle">
       <div class="container-fluid">
@@ -31,89 +32,109 @@
         </div>
       </div>
     </nav>
-    <section class="section_banner container-fluid position-relative">
+    <section class="section_banner position-relative">
+      <div>
+        <img class="img-fluid" style="width: 100%;min-height: 50vh;max-height: 70vh;"
+          src="https://th.bing.com/th/id/R.25f827f22948bad20b268ce7344704f1?rik=m8UWP9UW3lRJ0Q&riu=http%3a%2f%2fwww.ceuandalucia.es%2fwp%2fwp-content%2fuploads%2f2016%2f10%2fgrado-educacion-primaria.jpg&ehk=b0QgJuWt4zBryPZTOGqjiJr7emzWcTXXbYCNDlcX3wA%3d&risl=&pid=ImgRaw&r=0"
+          alt="banner_niñaleyendo">
+      </div>
       <div class="position-absolute top-0 start-50 translate-middle mt-5">
-        <h1 class="fw-bolder fs-1 p-3">UntrefSchool</h1>
+        <h1 class="titulo_banner container fw-bolder p-3 mt-5">UntrefSchool</h1>
       </div>
     </section>
   </header>
   <main class="container_main border border-dark-subtle">
-    <section class="cards-1">
-      <div class="text-center">
-        <div class="card-left border border-dark-subtle col-4 col-md-8 m-3 p-3 rounded" style="border-style: double;">
-          <div class="container-fluid">
-            <div class="row">
-              <div class="col-12 fs-1 text-start m-2">
-                <h3>Quienes somos</h3>
-              </div>
-              <div class="col-md-6">
-                <img
-                  src="https://images.unsplash.com/photo-1529390079861-591de354faf5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGVkdWNhY2lvbiUyMHByaW1hcmlhfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60"
-                  class="img-fluid border" alt="niñosescribiendo">
-              </div>
-              <div class="col-md-6">
-                <article>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, assumenda quos,
-                  voluptatem dolorem officia odio explicabo praesentium nulla quaerat earum perferendis saepe eos
-                  neque,
-                  sed consequuntur similique impedit aspernatur quis!
-                </article>
+    <section class="contenedor_cards">
+
+      <section class="cards-1">
+        <div>
+          <div class="card-left border border-dark-subtle col-md-auto m-3 p-3" style="border-style: double;">
+            <div>
+              <div class="row m-1">
+                <div class="col-12 fs-1 text-start m-2 p-3">
+                  <h2>Quienes somos</h2>
+                </div>
+                <div class="col-md-6">
+                  <img
+                    src="https://images.unsplash.com/photo-1501349800519-48093d60bde0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"
+                    class="img-fluid card-img-left" alt="lapicez">
+                </div>
+                <div class="col-md-6">
+                  <article>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, assumenda quos,
+                    voluptatem dolorem officia odio explicabo praesentium nulla quaerat earum perferendis saepe eos
+                    neque,
+                    sed consequuntur similique impedit aspernatur quis!
+                  </article>
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-    </section>
-    <section class="cards-2">
-      <div class="text-center">
-        <div class="card-right border border-dark-subtle col-4 col-md-8 ms-md-auto m-3 p-3 rounded">
-          <div class="container-fluid">
-            <div class="row">
-              <div class="col-12 fs-1 text-center m-2">
-                <h2>TituloDeLaImagen</h2>
+      </section>
+      <section class="cards-2">
+        <div>
+          <div class="card-right border border-dark-subtle col-md-auto ms-md-auto m-3 p-3">
+            <div>
+              <div class="row m-1">
+                <div class="col-12 fs-1 text-start m-2 p-3">
+                  <h2>¿Porque elegirnos?</h2>
+                </div>
+                <div class="col-md-6">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos porro cum
+                    perspiciatis ratione reiciendis voluptas nobis! Placeat nesciunt nisi perferendis, libero
+                    praesentium, vero et explicabo eligendi error recusandae deserunt voluptatem.</p>
+                </div>
+                <div class="col-md-6"><img
+                    src="https://images.unsplash.com/photo-1532294220147-279399e4e00f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"
+                    class="img-fluid card-img-right" alt="niñaLeyendo">
+                </div>
 
               </div>
-              <div class="col-md-6"><img
-                  src="https://images.unsplash.com/photo-1532294220147-279399e4e00f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"
-                  class="img-fluid card-img-right" alt="...">
-              </div>
-              <div class="col-md-6">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos porro cum
-                  perspiciatis ratione reiciendis voluptas nobis! Placeat nesciunt nisi perferendis, libero
-                  praesentium, vero et explicabo eligendi error recusandae deserunt voluptatem.</p>
-              </div>
-
             </div>
           </div>
         </div>
-      </div>
+      </section>
     </section>
 
-    <section class="hexagonos">
-      <div class="hex-container justify-content-around text-start p-4" style="height: 500px;">
-        <div class="hexagon">
-          <p class="m-3 fw-bolder fs-2 text-center">Quienes somos</p>
+    <section class="hexagono">
+      <div class="hex-container">
+        <div class="hexagon-horizontal">
+          <div class="container_button_hex">
+            <a href="./pages/Quienesomos.html"><button id="b-hex" type="button"
+                class="btn btn-primary btn-lg">Quienes somos</button></a>
+          </div>
         </div>
-        <div class="hexagon">
-          <p class="m-3 fw-bolder fs-2 text-center">Propuesta educativa</p>
+        <div class="hexagon-horizontal">
+          <div class="container_button_hex">
+            <a href="./pages/Propuestaeducativa.html"><button id="b-hex" type="button"
+                class="btn btn-primary btn-lg">Propuesta educativa</button></a>
+          </div>
         </div>
-        <div class="hexagon">
-          <p class="m-3 fw-bolder fs-2 text-center">Porque Elegirnos</p>
+        <div class="hexagon-horizontal">
+          <div class="container_button_hex">
+            <a href="./pages/PorqueElegirnos.html"><button id="b-hex" type="button"
+                class="btn btn-primary btn-lg">Porque elegirnos</button></a>
+          </div>
         </div>
-        <div class="hexagon">
-          <p class="m-3 fw-bolder fs-2 text-center">Contactanos</p>
+        <div class="hexagon-horizontal">
+          <div class="container_button_hex">
+            <a href="./pages/Contactanos.html"><button id="b-hex" type="button"
+                class="btn btn-primary btn-lg">Contactanos ahora</button></a>
+          </div>
         </div>
       </div>
+
     </section>
 
-    <section class="mt-5 novedades_main" style="width: 100%; height: 500px;">
-      <div class="m-2 p-2" style="width: 100%; height: 100%;">
-        <div class="row m-3 p-3 justify-content-around">
-          <div class="col-9 col-md-12 text-start">
+    <section class="mt-5 news_main">
+      <div class="m-2 p-2">
+        <div class="container_news row m-3 p-3 justify-content-around">
+          <div class="container_prin_tittle col-9 col-md-12 text-start">
             <h2 class="col-ms-auto p-4">Ultimas noticias</h2>
           </div>
-          <div class="col-6 p-3">
-            <h4 class="col-md-10">Implementacion</h4>
-            <div class="col-4 col-md-9">
+          <div class="col-6 p-3 container__article">
+            <h4 class="container__sub__tittle col-md-10">Implementacion</h4>
+            <div class="col-4 col-md-9 container___article">
               <article>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, harum repudiandae et aperiam ut
                 recusandae veritatis vitae accusantium vel cumque quia nam! Ex rem pariatur, aliquid inventore
@@ -123,8 +144,8 @@
             </div>
           </div>
           <div class="col-6 p-3">
-            <h4 class="col-md-10">Talleres extracurriculares</h4>
-            <div class="col-4 col-md-9">
+            <h4 class="col-md-10 container__sub__tittle">Talleres extracurriculares</h4>
+            <div class="col-4 col-md-9 container___article">
               <article>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, harum repudiandae et aperiam ut
                 recusandae veritatis vitae accusantium vel cumque quia nam! Ex rem pariatur, aliquid inventore
@@ -136,27 +157,40 @@
     </section>
   </main>
   <footer class="contenedor_footer border border-dark-subtle">
-    <section class="container">
-      <div class="row justify-content-around">
-        <div class="col-md-4">
-          <h2 class="col-md-9 fw-bolder fs-3 m-3 p-2">Redes sociales</h2>
-          <ul>
-            <li class="text-start m-3 p-3" style="text-decoration: none;"><a href="http://https://www.facebook.com/"
-                target="_blank" rel="noopener noreferrer">Facebook</a>
-            </li>
-            <li class="text-start m-3 p-3" style="text-decoration: none;"><a href="https://twitter.com/" target="_blank"
-                rel="noopener noreferrer">twitter</a></li>
-            <li class="text-start m-3 p-3" style="text-decoration: none;"><a href="https://www.instagram.com/"
-                target="_blank" rel="noopener noreferrer">Instagram</a></li>
-          </ul>
+    <section>
+      <div class="row justify-content-around ">
+        <div class="columna_redes  col-md-4">
+          <h2 class="col-md-9 fw-bolder fs-3 m-3 p-2 text-center">Redes sociales</h2>
+          <div class="d-flex flex-column text-center">
+
+
+            <a class="m-2 p-3 link-offset-2 link-underline link-underline-opacity-0"
+              href="http://https://www.facebook.com/" target="_blank" rel="noopener noreferrer"><img class="text-center"
+                style="max-width: 10%;" src="./img/facebook.png" alt="facebook-icon"></a>
+            <a class="m-2 p-3 link-offset-2 link-underline link-underline-opacity-0" href="https://twitter.com/"
+              target="_blank" rel="noopener noreferrer"><img class="text-center" style="max-width: 10%;"
+                src="./img/twitter.png" alt="twitter-icon"></a>
+            <a class="m-2 p-3 link-offset-2 link-underline link-underline-opacity-0" href="https://www.instagram.com/"
+              target="_blank" rel="noopener noreferrer"><img class="text-center" style="max-width: 10%;"
+                src="./img/instagram (1).png" alt="instagram-icon"></a>
+          </div>
         </div>
-        <div class="container-fluid col-md-4 text-center">
-          <h2 class="col-md-9 fw-bolder fs-3 text-center m-3 p-2">Instituto</h2>
-          <iframe class="container-fluid" src="" width="400" height="300" style="border:0;" allowfullscreen=""
-            loading="lazy" referrerpolicy="no-referrer-when-downgrade">Ubicacion</iframe>
+        <div class="col-md-4 text-center columna_inst">
+          <h2 class="col-md-9 fw-bolder fs-3 text-center m-3 p-2 text-center">Instituto</h2>
+          <iframe class="container-fluid"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4816496.189163917!2d136.8224593438432!3d33.52857598331849!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x605d1b87f02e57e7%3A0x2e01618b22571b89!2zVG9raW8sIEphcMOzbg!5e0!3m2!1ses!2sar!4v1690780076503!5m2!1ses!2sar"
+            width="450" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
-        <div class="container-fluid col-md-4 text-center">
+        <div class="col-md-4 text-center columna_contac">
           <h2 class="col-md-9 text-center fw-bolder fs-3 m-3 p-2">Contacto</h2>
+          <div class="d-flex flex-column">
+
+            <p class="m-2 p-3">Email@Instituto</p>
+            <p class="m-2 p-3">Tel:11 222 3333</p>
+            <p class="m-2 p-3">Whastapp:11 222 3333</p>
+          </div>
+
         </div>
       </div>
     </section>
