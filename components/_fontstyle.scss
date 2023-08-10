@@ -5,3 +5,11 @@
     color: #EFF5F5;
     font-size: 8vh;
 }
+.titulo_banner h1{
+    font-size: 100%
+}
+@media screen and (max-width:321px) {
+    .titulo_banner{
+        font-size: 4vh;
+    }
+}

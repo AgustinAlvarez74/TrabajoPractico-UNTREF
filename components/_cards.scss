@@ -20,9 +20,10 @@
             }
     
 }
+
 .cards-2{
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
     background-color: #EFF5F5;
     width: 100%;
     height: auto;
@@ -30,41 +31,9 @@
         width: 120vh;
         height: max-content;
     }
-        .card-img-right{
-            width: 100%;
-            height: auto;
-        }
-}
-@media screen and (max-width:768px) {
-    main{
-        display:flex;
-        flex-direction:column;
-        .cards-1{
-            display: flex;
-            background-color: #EFF5F5;
-            width: 100%;
-            height: auto;
-            .card-left{
-                width: auto;
-                height: max-content;
+            .card-img-right{
+                width: 100%;
+                height: auto;
             }
-                    .card-img-left{
-                        width: auto;
-                    }
-            
-        }
-        .cards-2{
-            display: flex;
-            background-color: #EFF5F5;
-            width: 100%;
-            height: auto;
-            .card-right{
-                width: auto;
-                height: max-content;
-            }
-                .card-img-right{
-                    width: auto;
-                }
-        }
-    }
+    
 }
